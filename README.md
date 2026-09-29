@@ -10,7 +10,7 @@ RoMacShade is an independent graphics project with a versioned ReShade shader an
 
 The iOS preview is experimental and tied to the Roblox build used to prepare it. The modified IPA is unsigned for ordinary iOS installation and must be re-signed by LiveContainer. Use the standalone dylib with a Roblox app copy in your own LiveContainer setup.
 
-Apple does not document a supported end-user export workflow for turning a third-party App Store app into an IPA. Install Roblox with your Apple ID and use only an IPA obtained through a method you are authorized to use. The install guide explains how to use that copy with LiveContainer.
+Apple does not document a supported end-user export workflow for turning a third-party App Store app into an IPA. The install guide describes obtaining and using your own IPA, including the third-party [Eevee IPA Decrypter Telegram bot](https://t.me/eeveedecrypterbot); use only files you are authorized to process, and never give the bot your Apple ID credentials.
 
 The app embeds the effect library for offline use. Its restore action downloads the versioned pack and validates its SHA-256 digest before installation. The library includes ReShade effects, helper includes, textures, 17 supplied Extravi presets, and two RoMacShade samples. Preset import and effect support depend on the host renderer and available depth data.
 

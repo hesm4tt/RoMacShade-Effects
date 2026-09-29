@@ -24,8 +24,8 @@ LiveContainer may show a signature error on first launch. In the app settings, r
 
 ## Use your own Roblox IPA
 
-1. Install Roblox from the App Store using your Apple ID. Apple does not document a supported end-user workflow for exporting a third-party App Store app as an IPA. Use only a copy obtained through a method you are authorized to use; do not share Apple ID credentials.
-2. Import that IPA into LiveContainer.
+1. Install Roblox from the App Store using your Apple ID and obtain an IPA associated with your account through a method you are authorized to use. Apple does not document a supported end-user export workflow for third-party App Store apps. One third-party option users may choose is the [Eevee IPA Decrypter Telegram bot](https://t.me/eeveedecrypterbot). It is independent of this project; use it only with an IPA you are authorized to process, review its current handling practices, and never give it your Apple ID credentials.
+2. Import the decrypted IPA into LiveContainer.
 3. In LiveContainer's Tweaks area, create or choose a tweak folder for Roblox and add `RoMacShade.dylib`.
 4. Use LiveContainer's Sign action for the tweak. In Roblox's app-specific Settings, choose that tweak folder.
 5. Run Force Sign for the app if LiveContainer requests it, then launch Roblox.
